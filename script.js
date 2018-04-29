@@ -11,8 +11,8 @@ correct.textContent = 0;
 answerLog = [];
 
 function newProblem() {
-  firstnum.innerHTML = Math.floor(Math.random() * 10).toString();
-  secondnum.innerHTML = Math.floor(Math.random() * 10).toString();
+  firstnum.innerHTML = Math.floor(Math.random() * 11).toString();
+  secondnum.innerHTML = Math.floor(Math.random() * 11).toString();
   total.innerHTML = (parseInt(total.innerHTML) + 1).toString();
   answer.value = '';
 
